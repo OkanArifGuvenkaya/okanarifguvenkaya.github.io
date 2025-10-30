@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publications/local-path-planning-dynamic-obstacle-avoidance/
+date: 2024-10-01
+venue: "IEEE IECON 2024"
+authors: "Okan Arif Güvenkaya, Selim Ahmet İz, Mustafa Ünel"
+paperurl: "https://ieeexplore.ieee.org/document/10906050"
+citation: "O. A. Güvenkaya, S. A. İz, and M. Ünel, “Local Path Planning with Dynamic Obstacle Avoidance in Unstructured Environments,” in Proc. IEEE IECON 2024."
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+An local path planning approach is proposed for autonomous ground vehicles operating in unstructured environments with dynamic obstacles. The method integrates a global planner with a reactive local planner to ensure safe, collision-free navigation under changing conditions. (Short summary—you can replace with your abstract.)
