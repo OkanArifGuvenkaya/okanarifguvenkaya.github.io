@@ -28,7 +28,7 @@ const projects = [
         ],
         technologies: ["ROS", "Unity", "TEB Planner", "Python", "C++"],
         links: [
-            { type: "video", url: "#", label: "Simulation Video" }
+            { type: "video", url: "https://www.youtube.com/watch?v=hG--16rI4ik", label: "Simulation Video" }
         ]
     },
     {
