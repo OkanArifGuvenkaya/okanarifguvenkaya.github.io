@@ -44,7 +44,7 @@ const projects = [
         ],
         technologies: ["MuJoCo", "OpenSim", "PPO", "dm_control", "Python"],
         links: [
-            { type: "presentation", url: "#", label: "Project Presentation" }
+            { type: "presentation", url: "presentations/rl-humanoid-presentation.pdf", label: "Project Presentation" }
         ]
     },
     {
@@ -60,9 +60,7 @@ const projects = [
         ],
         technologies: ["Raspberry Pi", "Python", "OpenCV", "Solidworks", "PID Control"],
         links: [
-            { type: "report", url: "#", label: "Report" },
-            { type: "video", url: "#", label: "Hardware Video" },
-            { type: "video", url: "#", label: "Simulation Video" }
+            { type: "report", url: "reports/differential-drive-progress.pdf", label: "Progress Report" }
         ]
     },
     {
@@ -76,10 +74,7 @@ const projects = [
             "Created a user-friendly GUI to provide a 3D rendering of the system and physical system"
         ],
         technologies: ["MATLAB", "App Designer", "Control Systems", "3D Graphics"],
-        links: [
-            { type: "video", url: "#", label: "Hardware Video" },
-            { type: "video", url: "#", label: "GUI Video" }
-        ]
+        links: []
     },
     {
         id: 6,
@@ -93,7 +88,7 @@ const projects = [
         ],
         technologies: ["Python", "OpenCV", "Computer Vision", "Optical Flow"],
         links: [
-            { type: "report", url: "#", label: "Report" }
+            { type: "report", url: "reports/traffic-violation-cv.pdf", label: "Project Report" }
         ]
     },
     {
@@ -108,9 +103,7 @@ const projects = [
             "Conducted cooling optimization of the battery box design via conjugate heat transfer"
         ],
         technologies: ["Solidworks", "ANSYS", "CFD", "Simscale"],
-        links: [
-            { type: "video", url: "#", label: "Workshop Video" }
-        ]
+        links: []
     },
     {
         id: 8,
