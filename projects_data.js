@@ -2,6 +2,24 @@
 const projects = [
     {
         id: 1,
+        title: "Vision-Based Opponent Detection and Autonomous Blocking in F1TENTH Racing",
+        date: "Oct 2025 - Feb 2026",
+        image: "images/projects/f1tenth-autonomous-racing.jpg",
+        description: "Developed a modular ROS2-based autonomous racing system on the F1TENTH (1:10 scale) platform, enabling autonomous blocking against a dynamic opponent with vision-based detection and intelligent trajectory planning.",
+        bullets: [
+            "Developed a modular ROS2-based autonomous racing system on the F1TENTH (1:10 scale) platform, enabling autonomous blocking against a dynamic opponent",
+            "Implemented vision-based opponent detection using a YOLOv8 model trained on a custom dataset and LiDAR-based particle filter localization for accurate real-time state estimation",
+            "Designed multi-raceline trajectory planning and a finite-state machine (FSM) for perception-driven decision making and strategic raceline switching",
+            "Executed trajectories using a Pure Pursuit controller with dynamic lookahead tuning and validated the system in real-time experiments under competitive racing conditions"
+        ],
+        technologies: ["ROS2", "Python", "YOLOv8", "LiDAR", "Computer Vision", "Particle Filter", "Pure Pursuit Controller", "F1TENTH"],
+        links: [
+            { type: "video", url: "https://drive.google.com/file/d/1dHCisX2FVivGmcXfnGM-q2lspUNsZh6f/view?usp=sharing", label: "Project Demo" },
+            { type: "report", url: "reports/f1tenth-autonomous-racing.pdf", label: "Technical Report" }
+        ]
+    },
+    {
+        id: 2,
         title: "Mobile Robot Development for Intralogistics",
         date: "Sept - Oct 2025",
         image: "images/projects/mobile-robot-intralogistics.jpg",
@@ -16,7 +34,7 @@ const projects = [
         links: []
     },
     {
-        id: 2,
+        id: 3,
         title: "Autonomous Driving in ROS-based Unity Simulation",
         date: "March - Aug 2025",
         image: "images/projects/autonomous-driving-unity.jpg",
@@ -32,7 +50,7 @@ const projects = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Reinforcement Learning for Humanoid Motion Optimization",
         date: "March - Aug 2025",
         image: "images/projects/humanoid-rl.jpg",
@@ -48,7 +66,7 @@ const projects = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: "Vision Based Motion Control of Differential Drive Robot",
         date: "Feb - June 2023",
         image: "images/projects/differential-drive-robot.jpg",
@@ -64,7 +82,7 @@ const projects = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: "Spherical Haptic Interface with Educational GUI",
         date: "Sept 2022 - June 2023",
         image: "images/projects/spherical-haptic.jpg",
@@ -77,7 +95,7 @@ const projects = [
         links: []
     },
     {
-        id: 6,
+        id: 7,
         title: "Traffic Violation Detection via Computer Vision",
         date: "Sept 2022 - Jan 2023",
         image: "images/projects/traffic-violation.jpg",
@@ -92,7 +110,7 @@ const projects = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         title: "Sabancı Motorsports - Aerodynamics Department",
         date: "Feb 2020 - Jan 2022",
         image: "images/projects/sabanci-motorsports.jpg",
@@ -106,7 +124,7 @@ const projects = [
         links: []
     },
     {
-        id: 8,
+        id: 9,
         title: "Sabancı Aerospace Team - Rocket Competition",
         date: "July 2020 - Sept 2021",
         image: "images/projects/sabanci-aerospace.jpg",
